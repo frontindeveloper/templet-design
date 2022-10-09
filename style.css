@@ -1,0 +1,735 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* ==============================================
+=====Index Of====
+1.Basic Style
+2. Header Style
+3. Hero Style
+4. Cliend Style
+5. FeactureList
+6. Smart Style
+7. Learn Style
+10. Group Style
+11.Pricing Style
+12.Testimonial Style
+13.Faq Style
+14. Download start
+15.Footer Style
+================================================= */
+/* ==============================================
+1. Basic Style
+================================================= */
+/* ==============================================
+2. Header Style
+================================================= */
+header{
+    height: 100px;
+}
+.navbar{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    background-color:#e4f5ff;
+}
+.navbar ul li {
+    padding: 0px 15px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+    font-size: px;
+}
+.navbar ul li a{
+    color: #3b7fbd;
+}
+.navbar ul{
+    margin: 0 auto;
+    text-align: center; 
+}
+.navbar h3{
+    color: #1c9ced;
+    padding: 0px 25px;
+}
+.navbar .mybtn{
+    border-color: #0170b8;
+    color: #9ce8ff;
+}
+.navbar .mybtn1{
+    background-color: #fff;
+    
+}
+.navbar .mybtn1:hover{
+    background:transparent;
+    
+}
+.navbar .mybtn2{
+    background-color:#0A6D64;
+    color:#fff;
+}
+.navbar .mybtn2:hover{
+    background:transparent;
+}
+.navbar ul:hover{
+    background-color:transparent;
+} 
+/* ==============================================
+3. hero Style
+================================================= */
+#hero{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    
+
+}
+#hero .text-box h2{
+    color:#0A6D64;
+    font-weight: 700;
+    font-size: 70px;
+    line-height:80px;
+}
+#hero .text-box p{
+    color:#1C1C1C;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 34px;
+}
+#hero .btn-box{
+    
+}
+#hero .btn-box .mybtn3{
+    color:#FFFFFF;
+    background-color:#0A6D64;
+    font-size: 24px;
+    width: 220px;
+    height: 64px
+    
+}
+#hero .btn-box .mybtn4{
+    background-color:transparent;
+    border: 2px solid#0A6D64;
+    font-size: ;
+    width: 220px;
+    height: 64px;
+    font-size:24px ;
+    padding-top:11px;
+    color: #1C1C1C;
+    margin-left: 32px;
+    border-radius:4px;
+}
+#hero .img-box img{
+    position:absolute;
+    width:43%;
+}
+#hero .img-box .circle{
+    width: 42%;
+}
+#hero .img-box .happyman{
+    width:42.5%;
+}
+#hero .herobottom{
+    background-color: #0A6D64;
+    margin-top: 30px;
+    height: 100px;
+}
+#hero .herobottom span{
+    content: '';
+    width: 3px;
+    height: 30px;
+    color: #fff;
+    margin-top: 33px;
+    background-color: #fff;
+}
+#hero .herobottom a{
+    text-decoration: none;
+    font-weight:'Poppins';
+    font-size: 36px;
+    margin-top: 18px;
+    color: ;
+    color: #fff;
+    
+}
+#hero .herobottom a:hover{
+    background-color: transparent;
+}
+/* ==============================================
+4. about Style
+================================================= */
+#about{
+    background-image: url('asset/img/circle.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 100px;
+}
+#about .text-box1{
+
+}
+#about .text-box1 h6{
+    font-weight: 700;
+    font-size: 26px;
+    color: #495463;
+}
+
+#about .text-box1 h2{
+    font-weight: 700;
+    font-size: 34px;
+    color: #495463;
+    padding-top:45px;
+}
+
+#about .text-box1 p{
+    color: #0D0D0E;
+    font-size: 20px;
+    padding: 20px 0px;
+
+}
+#about .btn-box1 .mybtn5{
+    background-color:#0A6D64;
+    width: 215px;
+    height: 63px;
+    padding-top: 14px;
+    font-size: 21px;
+    color:#FFFFFF;
+    border-radius: 4px;
+}
+
+#about .btn-box1 .mybtn6{
+    border:2px solid #000000;
+    width: 215px;
+    height: 63px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #050505;
+    padding-top: 14px;
+    border-radius: 4px;
+}
+#about .img img{
+    height: 497px;
+}
+/* ==============================================
+5. servic Style
+================================================= */
+#servic{
+
+}
+#servic .servic-head{
+    margin: 0 auto;
+    text-align: center;
+    padding:100px 0px;
+}
+#servic .servic-head h1{
+    color:#1C1C1C;
+    font-size: 67px;
+}
+#servic .servic-head p{
+    color: #495463;
+    font-size: 24px;
+    padding: 15px 0px;
+}
+
+#servic .text1{
+    background-color:#0A6D64; 
+   height: 380px;
+   padding-top: 25px;
+}
+#servic .text1 img{
+    text-align:center;
+    font-size: 40px;
+    padding-right:116px;
+    padding-left:100px;
+    padding-top: 25px;
+    color: #fff;
+ 
+
+}
+#servei .text1 img::before{
+   content: 'ishan';
+   width: 5px;
+   display: block;
+   height: 10px;
+   color: red;
+   font-size: 50px;
+   background-color: red;
+}
+#servic .text1 h2{
+   color:#0D0D0E;
+   text-align: center;
+   padding-top: 20px;
+}
+
+#servic .text1 p{
+   color: #0D0D0E;
+   display: block;
+   padding-top: 10px;
+   padding-bottom: 50px;
+   padding-right: 30px;
+   padding-left: 30px;
+   font-size:12px;
+   
+}
+#servic .text2{
+    background-color:#F2F4F6; 
+   height: 380px;
+   padding-top: 25px;
+}
+#servic .text2 img{
+   text-align:center;
+   font-size: 40px;
+   padding-right:116px;
+   padding-left:100px;
+   padding-top: 25px;
+   color: #fff;
+
+}
+#servei .text1 img::before{
+   content: 'ishan';
+   width: 5px;
+   display: block;
+   height: 10px;
+   color: red;
+   font-size: 50px;
+   background-color: red;
+}
+#servic .text2 h2{
+   color:#0D0D0E;
+   text-align: center;
+   padding-top: 20px;
+}
+
+#servic .text2 p{
+   color: #0D0D0E;
+   display: block;
+   padding-top: 10px;
+   padding-bottom: 50px;
+   padding-right: 30px;
+   padding-left: 30px;
+   font-size:12px;
+   
+}
+#servic .text3{
+   background-color:#F2F4F6; 
+   height: 380px;
+   padding-top: 25px;
+}
+#servic .text3 img{
+   text-align:center;
+   font-size: 40px;
+   padding-right:116px;
+   padding-left:100px;
+   padding-top: 25px;
+   color: #fff;
+
+}
+#servei .text3 img::before{
+   content: 'ishan';
+   width: 5px;
+   display: block;
+   height: 10px;
+   color: red;
+   font-size: 50px;
+   background-color: red;
+}
+#servic .text3 h2{
+   color:#0D0D0E;
+   text-align: center;
+   padding-top: 20px;
+}
+
+#servic .text3 p{
+   color: #0D0D0E;
+   display: block;
+   padding-top: 10px;
+   padding-bottom: 50px;
+   padding-right: 30px;
+   padding-left: 30px;
+   font-size:12px;
+   
+}
+#servic .text4{
+    background-color:#F2F4F6; 
+    height: 380px;
+    padding-top: 25px;
+ }
+ #servic .text4 img{
+    text-align:center;
+    font-size: 40px;
+    padding-right:116px;
+    padding-left:100px;
+    padding-top: 25px;
+    color: #fff;
+ 
+ }
+ #servei .text4 img::before{
+    content: 'ishan';
+    width: 5px;
+    display: block;
+    height: 10px;
+    color: red;
+    font-size: 50px;
+    background-color: red;
+ }
+ #servic .text4 h2{
+    color:#0D0D0E;
+    text-align: center;
+    padding-top: 20px;
+ }
+ 
+ #servic .text4 p{
+    color: #0D0D0E;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size:12px;
+    
+ }
+ /* ==============================================
+6. servic2 Style
+================================================= */
+#about2{
+    padding: 100px 0px;
+    background-color: #FFFFFF;
+}
+#about2 .about2-head .text{
+
+}
+#about2 .about2-head .text h3{
+    font-size: 47px;
+    color: #495463;
+    font-weight:700;
+}
+#about2 .about2-head .text p{
+    color: #495463;
+    font-size: 20px;
+    padding: 60px 0px;
+}
+#about2 .about2-head .img{
+
+}
+#about2 .about2-head .img img{
+    margin-left: 300px;
+}
+#about2 .body{
+    margin-top: 50px;
+}
+#about2 .body{
+    margin-left: 100px;
+}
+#about2 .body .text-box h6{
+    font-size: 24px;
+    font-weight: 700;
+    color: #495463;
+}
+#about2 .body .text-box p{
+    color: #495463;
+    font-size: 24px;
+    padding: 25px 0px;
+}
+#about2 .body .img-box img{
+    width: 36px;
+    height: 46px;
+    color: #0A6D64;
+}
+#about2 .body .img-box h6{
+    width: 436px;
+    color: 24px;
+    color: #495463;
+}
+#about2 .body .img-box p{
+    font-size: 15px;
+    font-weight: 700;
+    color: #495463;
+    padding: 15px 0px;
+}
+#about2 .body .img-box-2 img{
+    color: #0A6D64;
+    padding:20px 0px;
+}
+#about2 .img-box-2 p{
+    color: #495463;
+    font-weight:700;
+    font-size: 15px;
+}
+#about2 .img-box-2 h6{
+    font-weight: ;
+    font-size: 24px;
+    color: #495463;
+    padding: 5px 0px;
+}
+/* ==============================================
+7. team Style
+================================================= */
+#team{
+    padding: 100px 0px;
+    background-color:#F1F9FF;
+}
+#team .teamhead h2{
+    font-size: 42px;
+    color: #434242;
+}
+#team .teamhead p{
+    font-size: 19px;
+    color: #434242;
+    padding: 25px 0px;
+}
+#team .teambody { 
+
+}
+#team .team1 .img img{
+    width:100%;
+}
+
+#team .teambody .team1{
+    border:2px solid#0A6D64;
+
+}
+#team .teambody .team1 .text-box{
+    padding: 0px 15px;
+}
+#team .teambody .team1 .text h4{
+
+}
+#team .teambody .team1 .text p{
+    font-size: 10px;
+    font-weight: 700;
+    color: #3A3A3A;
+
+}
+#team .teambody .team1 .text h6{
+    color: #3A3A3A;
+    font-size: 16px;
+    padding: 15px 0px;
+}
+#team .teambody .text-box i{
+    color: #0A6D64;
+}
+#team .teambody .team1 .text-box .icon1{
+    padding: 10px 15px;
+}
+#team .teambody .team2{
+    border:2px solid#0A6D64;
+    margin-top: 40px;
+
+}
+#team .teambody .team2 .text-box{
+    padding: 0px 15px;
+}
+#team .teambody .team2 .text h4{
+    font-size: 17px;
+    font-weight: 700;
+    color: #0A6D64;
+    padding: 20px 0px;
+}
+#team .teambody .team2 .text p{
+    font-size: 10px;
+    font-weight: 700;
+    color: #3A3A3A;
+
+}
+#team .teambody .team2 .text h6{
+    color: #3A3A3A;
+    font-size: 16px;
+    padding: 15px 0px;
+}
+#team .teambody .text-box i{
+    color: #0A6D64;
+}
+#team .teambody .team2 .text-box .icon1{
+    padding: 10px 15px;
+}
+#team .team2 .img img{
+    width: 100%;
+}
+
+/* ==============================================
+8. team2 Style
+================================================= */
+#team2{
+    padding: 100px 0px;
+    position: relative;
+}
+#team2 .text{
+
+}
+#team2 .text h1{
+    color: #0A6D64;
+    font-size: 46px;
+    font-weight: 700;
+    padding: 30px 0px;
+}
+#team2 .text p{
+    color: #161616;
+    font-size: 30px;
+}
+#team2 .img-box{
+}
+#team2 .img img{
+    position: absolute;
+    padding: px 0px;
+}
+#team2 .img h5{
+    position: relative;
+    color: #102851;
+    font-weight: 700;
+    font-size: 12px;
+    padding-left:70px;
+}
+#team2 .img p{
+    position: relative;
+    padding-left:70px;
+    color: #707070;
+    font-size: 10px;
+}
+/* #team2 .team2-body{
+
+}
+#team2 .team2-body .img-2 img{
+    position: relative;
+}
+#team2 .team2-body .img-2 .text{
+     background-color:#0A6D64;
+    width: 500px;
+    height: 90px;
+    margin: 0 auto;
+    position: absolute;
+}
+#team2 .team2-body .img-2 .text h4 {
+    margin-bottom: -100px;
+}
+#team2 .team2-body .img-2 .text p{
+    margin-bottom: -100px;
+} */
+/* #team2 .team2-body .text1{
+    background-color: #0A6D64;
+    margin: 0px auto;
+    width: 500px;
+    height: 90px;
+    margin-bottom: 80px;
+    
+}
+#team2 .team2-body .text{
+    padding-bottom: 80px;
+}
+#team2 .team2-body .text1 h4 {
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-bottom:px;
+}
+#team2 .team2-body .text1 p{
+    
+    
+} */
+/* ==============================================
+9. Footer Style
+================================================= */
+footer{
+    background-color: #0A6D64;
+    padding: 100px 0px;
+}
+footer .footer1 p{
+    color:#FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+footer .footer1 h1{
+    color:#FFFFFF;
+    font-size:22px;
+}
+footer .footer2{
+
+}
+footer .footer2 p{
+    color: #FFFFFF;
+    margin-bottom: -5px;
+    font-size: 16px;
+}
+footer .footer2 .link a{
+    color:#FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+footer .footer3{
+
+}
+footer .footer3 .link1{
+    margin-top:;
+}
+footer .footer3 .link1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 0px;
+    font-weight: 700;
+}
+footer .footer3 .link2{
+    padding-top: 20px;
+}
+footer .footer3 .link2 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-top: 20px;
+    font-size: 16px;
+}
+footer .footer4{
+
+}
+footer .footer4 .link1{
+
+}
+footer .footer4 .link1 a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+footer .footer4 .text{
+    padding-top: 30px;
+}
+footer .footer4 .text p{
+    margin: 0 auto;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+footer .footer4 .link2{
+    padding: 30px 0px;
+
+}
+footer .footer4 .link2 a{
+    
+}
+footer .footer4 .link2 .btn1{
+    border: 2px solid#FFFFFF;
+    color: #FFFFFF;
+}
+footer .footer4 .link2 .btn2{
+    border: 2px solid#FFFFFF;
+    color: #0A6D64;
+    background-color:#FFFFFF ;
+    margin-left: 20px;
+}
+/* footer::after{
+    content: url('');
+    display: block;
+    width: 90%;
+    height: 5px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin:0 auto;
+    padding:px 0px;
+} */
+footer .text5 h4{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 45px;
+    text-align: center;
+}
+footer .text5::before{
+    content: url('');
+    display: block;
+    width: 95%;
+    height: 5px;
+    color: #FFFFFF;
+    margin-left: 65px;
+    background-color: #FFFFFF;
+}
